@@ -1,0 +1,15 @@
+/* BASIC GLOBAL SETUP */
+
+[v-cloak]{visibility:hidden}
+:root{--headings-font:'Poppins',sans-serif;--primary-font:'Titillium Web';--x:7.5rem;--y:7.5rem;--cSize:0.4375rem;--cSizeSmall:0.4375rem}
+ul{padding:0;margin:0;list-style:none}
+html{scroll-behavior:smooth!important}
+a:-webkit-any-link{cursor:text}
+body{background-color:#f5f5f5;line-height: 1.5em;}
+body.noscroll{overflow:hidden}
+p{margin:0}
+h1{font-size:2em;font-weight:800;text-align:right}
+h1,h2,h3,h4,h5,h6{text-transform:uppercase;font-family:var(--headings-font);padding:0;margin:0}
+a.no-decorate{text-decoration:none;color:#000}
+a.no-decorate:hover{cursor:pointer;backface-visibility:hidden;position:relative;transition:.2s color ease;text-decoration:none;color:var(--main-color);-ms-transition:.2s color ease;-o-transition:.2s color ease}
+hr{border-width:.03rem;margin-top:.6rem;border-bottom:.2rem solid var(--main-color-lighter);border-top:0;border-left:0;border-right:0}

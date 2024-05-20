@@ -1,0 +1,15 @@
+/* BASIC CSS */
+
+.page>*{transition-duration:.5s;transition-property:opacity;opacity:0; font-family:var(--primary-font);}
+.page{border-radius: 0.5em;z-index:0;padding:1rem;width:8.5in;height:11in;position:relative;margin:2em auto;box-shadow:.2em 0.2rem 0.8rem .2rem rgb(0 0 0 / 40%);background-color:#fff;overflow:hidden}
+.page.loaded>*{opacity:1}
+
+.column {display:block;}
+
+.grid{z-index:1;background:0 0;display:flex;justify-content:space-between;flex-wrap:wrap;width:100%}
+
+.centered-column{text-align:center;width:100%}
+.centered-column>.header{ padding: 0.5em; }
+
+.section{margin:.5em 0}
+.section>.header{display:flex;border-bottom:.28em solid var(--main-color-lighter);margin:0.5em 0}

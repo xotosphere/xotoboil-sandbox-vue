@@ -1,0 +1,27 @@
+{
+	"name": "resume-page",
+	"version": "1.0.0",
+	"description": "my resume connected by a multiport system and linked by a data server",
+	"scripts": {
+		"boot": "yarn install && yarn bootstrap",
+		"clean": "lerna clean --yes && lerna exec -- rm -rf dist",
+		"bootstrap": "lerna bootstrap",
+		"build": "lerna run build --stream",
+		"start": "lerna run start --stream --scope=@resume/page"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/xotosphere/xotoboil-vue.git"
+	},
+	"author": "Gregoire Cousin",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/xotosphere/xotoboil-vue/issues"
+	},
+	"homepage": "https://gitlab.com/xotosphere/xotoboil-vue#readme",
+	"dependencies": {
+		"find-up": "^5.0.0",
+		"lerna": "^4.0.0",
+		"nodemon": "^2.0.7"
+	}
+}
