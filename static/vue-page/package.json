@@ -11,14 +11,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@gitlab.com/xotosphere/xotoboil-vue.git"
+		"url": "git+ssh://git@gitlab.com/xotosphere/xotoboil-starter-vue.git"
 	},
 	"author": "Gregoire Cousin",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://gitlab.com/xotosphere/xotoboil-vue/issues"
+		"url": "https://gitlab.com/xotosphere/xotoboil-starter-vue/issues"
 	},
-	"homepage": "https://gitlab.com/xotosphere/xotoboil-vue#readme",
+	"homepage": "https://gitlab.com/xotosphere/xotoboil-starter-vue#readme",
 	"dependencies": {
 		"find-up": "^5.0.0",
 		"lerna": "^4.0.0",
